@@ -1,15 +1,15 @@
 package com.example.tacademy.miniproject.data;
 
 public class User {
-    private String id;
+    private long    id;
     private String userName;
     private String email;
 
-    public String getId() {
+    public long getId() {
         return this.id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
